@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* Css for navbar  */
+.navbar-toggler {
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: none !important;
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus {
+    color: transparent;
+}
+
+#contact-us a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #B67A00 !important;
+}
+
+.nav-link {
+    font-size: 16px !important;
+    font-weight: 900px !important;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Css for navbar end here*/
+
+/* Css for all buttons */
+
+.btn-hover {
+    color: white !important;
+    background-color: chocolate !important;
+}
+
+.man-one {
+    display: none !important;
+}
+
+/* Css for hero section */
+.paragraph {
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+/* Css for buttons  */
+.inner-button {
+    border-radius: 50px !important;
+    width: 70px !important;
+    margin-left: -70px;
+    z-index: -1 !important;
+    height: 40px !important;
+    background-color: #F8B333 !important;
+    border: none !important;
+}
+
+.form-control:focus {
+    border-color: #F8B333 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.our-services-img {
+    display: none !important;
+}
+
+/* Css for cards */
+.card-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#Anrew {
+    margin-top: -30px !important;
+    margin-left: -30px !important;
+    position: relative;
+}
+
+/* Media Query for medium devices  */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .empty-column {
+        display: none;
+    }
+
+    .who-we-are {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+
+    .who-we-are img {
+        width: 100%;
+    }
+
+    #about-us {
+        width: 100% !important;
+        margin-top: 50px !important;
+        margin-left: 20px !important;
+    }
+
+    .goal {
+        justify-content: center !important;
+        margin-top: 50px !important;
+    }
+
+    .our-goal {
+        width: 90% !important;
+        margin-top: 0px !important;
+    }
+
+    .introduction {
+        width: 90% !important;
+    }
+
+    .testimonial-1 {
+        margin: auto !important;
+        text-align: center !important;
+    }
+
+    .client-img {
+        width: 100% !important;
+    }
+
+    .client-img img {
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+
+    #Sascha-Noe {
+        order: 2 !important;
+        width: 30% !important;
+        margin-top: 0px !important;
+        margin-top: -20px !important;
+        margin-left: 240px !important;
+    }
+
+    .testimonial-2 {
+        text-align: center !important;
+        margin-top: 30px !important;
+    }
+
+    .Marc-Hoffmann {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+
+    #Marc {
+        width: 30% !important;
+    }
+
+    .Anrew-Lozan {
+        margin: 0px !important;
+        text-align: center !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+
+    #Anrew {
+        margin: 0px !important;
+        width: 30% !important;
+        margin: auto !important;
+        margin-top: -30px !important;
+    }
+
+    .current-client {
+        width: 100% !important;
+    }
+}
+
+
+/* Media Query for mobile devices */
+@media screen and (max-width: 767px) and (min-width: 360px) {
+
+    .our-services {
+        display: none !important;
+    }
+
+    .who-we-are {
+        margin-top: 50px !important;
+    }
+
+    .who-we-are h6 {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+
+    .who-we-are h4 {
+        font-size: 30px !important;
+        font-weight: 600 !important;
+    }
+
+    #meet-ourteam img {
+        width: 100%;
+    }
+
+    #three52 {
+        width: 50% !important;
+    }
+
+    #tenpercent {
+        width: 50% !important;
+    }
+
+    .man-one {
+        display: block !important;
+        margin-top: 30px !important;
+    }
+
+    .man-one h6 {
+        font-size: 20px !important;
+    }
+
+    .logo-img {
+        order: 2 !important;
+    }
+
+    #about-us {
+        margin-top: 40px !important;
+    }
+
+    #about-us h6 {
+        font-size: 20px !important;
+    }
+
+    #about-us h4 {
+        font-size: 24px !important;
+        font-weight: 900px !important;
+    }
+
+    .about-us-row {
+        margin-top: 20px !important;
+    }
+
+    .our-goal {
+        margin-top: 10px !important;
+    }
+
+    .our-goal-column {
+        width: 65% !important;
+    }
+
+    .goal {
+        margin: 1px !important;
+        margin-top: 40px !important;
+    }
+
+    .col-our-goal {
+        width: 60% !important;
+    }
+
+    .card {
+        width: 10rem !important;
+    }
+
+    .card-text {
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+
+    #card-two-p {
+        padding: 0px !important;
+    }
+
+    #card-three-p {
+        padding: 1px !important;
+    }
+
+    .body-card-3 {
+        padding: 6px !important;
+    }
+
+    .body-card-5 {
+        padding: 25px !important;
+    }
+
+    .card-row {
+        margin-left: -18px !important;
+        margin-right: 5px !important;
+    }
+
+    .client-img {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .client-img img {
+        margin-left: 0px !important;
+    }
+
+
+    #testimonial-section {
+        margin-top: 50px !important;
+    }
+
+    #Sascha-Noe {
+        order: 2 !important;
+        margin-top: -30px !important;
+        width: 60% !important;
+    }
+
+    .testimonial-1 {
+        justify-content: center !important;
+    }
+
+
+    .testimonial-2 {
+        margin-top: 50px !important;
+    }
+
+    .Marc-Hoffmann {
+        margin: 0px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    #Marc {
+        width: 60% !important;
+        text-align: start !important;
+    }
+
+
+    .testimonial-3 {
+        margin-top: 50px !important;
+    }
+
+    .Anrew-Lozan {
+        width: 100% !important;
+        text-align: center !important;
+        margin: 0px !important;
+    }
+
+    #Anrew {
+        width: 60%;
+        margin: 0px !important;
+        margin-left: 55px !important;
+        margin-top: -30px !important;
+    }
+
+    .current-client {
+        width: 100% !important;
+    }
+
+    .current-client h6 {
+        font-size: 20px !important;
+    }
+
+    .current-client-section h4 {
+        font-size: 24px !important;
+    }
+
+    .Versicherungs {
+        width: 50% !important;
+    }
+
+    .Finanzberatung {
+        width: 50% !important;
+    }
+
+    .sent-request {
+        width: 100% !important;
+    }
+
+    #footer-list {
+        display: none !important;
+    }
+
+    #footer-social-icons {
+        width: 100% !important;
+        margin-top: 40px !important;
+    }
+
+    #social-icon {
+        font-size: 30px !important;
+    }
+
+    /* .span-1{
+        width: 100% !important;
+    }
+    
+    .span-2{
+        width: 100% !important;
+    } */
+}
+
+
+/* .empty-column {
+        display: none;
+    }
+
+    .who-we-are img {
+        width: 100%;
+    }
+
+    #about-us {
+        width: 100% !important;
+        margin-top: 50px !important;
+        margin-left: 20px !important;
+    }
+
+    .goal {
+        justify-content: center !important;
+        margin-top: 50px !important;
+    }
+
+    .our-goal {
+        width: 90% !important;
+        margin-top: 0px !important;
+    }
+
+    .introduction {
+        width: 90% !important;
+    }
+
+    .testimonial-1 {
+        margin: auto !important;
+        text-align: center !important;
+    }
+
+    .client-img {
+        width: 100% !important;
+    }
+
+    .client-img img {
+        margin-left: 0px !important;
+        text-align: center !important;
+    }
+
+    #Sascha-Noe {
+        order: 2 !important;
+        width: 30% !important;
+        margin-top: 0px !important;
+        margin-top: -20px !important;
+        margin-left: 240px !important;
+    }
+
+    .testimonial-2 {
+        text-align: center !important;
+        margin-top: 30px !important;
+    }
+
+    .Marc-Hoffmann {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+
+    #Marc {
+        width: 30% !important;
+    }
+
+    .Anrew-Lozan {
+        margin: 0px !important;
+        text-align: center !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+
+    #Anrew {
+        margin: 0px !important;
+        width: 30% !important;
+        margin: auto !important;
+        margin-top: -30px !important;
+    }
+
+    .current-client{
+        width: 100% !important;
+    } */
